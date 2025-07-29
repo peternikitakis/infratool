@@ -1,0 +1,52 @@
+[
+  {
+    "command": "ls -l",
+    "summary": "List files in long format with details.",
+    "explanation": "The 'ls' command lists directory contents. The '-l' flag shows details like permissions, size, and ownership."
+  },
+  {
+    "command": "pwd",
+    "summary": "Print working directory.",
+    "explanation": "Displays the full path of the current directory."
+  },
+  {
+    "command": "terraform init",
+    "summary": "Initialize Terraform working directory.",
+    "explanation": "Downloads the provider plugins needed to use Terraform."
+  },
+  {
+    "command": "kubectl get pods",
+    "summary": "List all Kubernetes pods.",
+    "explanation": "Returns a list of pods in the current namespace with status and name."
+  },
+  {
+    "command": "docker ps",
+    "summary": "Show running Docker containers.",
+    "explanation": "Lists all running containers with their container IDs and status."
+  },
+  {
+    "command": "git status",
+    "summary": "Check the current state of the repo.",
+    "explanation": "Shows changed files in the working directory, staged changes, and untracked files."
+  },
+  {
+    "command": "mkdir new_folder",
+    "summary": "Create a new directory.",
+    "explanation": "Creates a new directory called 'new_folder' in the current path."
+  },
+  {
+    "command": "cd ..",
+    "summary": "Go up one directory level.",
+    "explanation": "Changes your current working directory to its parent."
+  },
+  {
+    "command": "touch file.txt",
+    "summary": "Create an empty file.",
+    "explanation": "Creates a blank file named 'file.txt'. If it already exists, updates the timestamp."
+  },
+  {
+    "command": "git clone <url>",
+    "summary": "Clone a remote git repository.",
+    "explanation": "Creates a local copy of a remote Git repository using the given URL."
+  }
+]
